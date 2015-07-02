@@ -2,7 +2,7 @@
     $servername="localhost";
     $username="root";
     $password="";
-    $database="webtools";
+    $database="postag";
     $koneksi=mysql_connect ($servername, $username, $password);
 
   if ($koneksi) {

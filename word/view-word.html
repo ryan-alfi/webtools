@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Script Tutorials" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>View Words | CodePoint</title>
+
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" />
+    <link href="css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <h2>Tabel Kata</h2>
+    </header>
+
+    <div class="table">
+        <h4>- Klik sekali untuk memilih.</h4>
+        <h4>- Klik double klik untuk mengedit.</h4>
+        <table cellpadding="0" cellspacing="0" border="0" class="display" id="pd_profiles" style="width:95%;margin:0 auto" width="100%">
+            <thead><th title="kata">KATA</th><th title="pos">POS</th></thead>
+            <tbody><tr><td colspan="6" class="dataTables_empty">Downloading data about the users from the server</td></tr></tbody>
+            <tfoot><th title="kata">KATA</th><th title="pos">POS</th></tfoot>
+        </table>
+        <div style="clear:both"></div><br /><hr />
+        <button id="btnDeleteMemRow" class="btn btn-warning pull-right">Delete record</button>
+        <a href="../app.php" style="color:white;"><button class="btn btn-info pull-left">Back</button></a>
+    </div>
+
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.dataTables.min.js"></script>
+  <script src="js/jquery.dataTables.editable.js"></script>
+  <script src="js/jquery.jeditable.js"></script>
+  <script src="js/jquery.validate.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

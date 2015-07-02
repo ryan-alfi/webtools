@@ -1,5 +1,8 @@
 <?php session_start();
+
+//disini INSERT DTABASE LOG
 unset($_SESSION['email']);
+unset($_SESSION['counter']);
 header('location:index.php');
 ?>
  

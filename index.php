@@ -16,7 +16,7 @@
 <div class="container">
 
 <div class="page-header">
-    <h1>Please Login <small>CodePoint's simple login</small></h1>
+    <h1>POS TAGGING <small>CodePoint's simple login</small></h1>
 </div>
 
 <!-- Simple Login - START -->
@@ -30,7 +30,7 @@
     <div class="form-group">
         <button class="btn btn-primary btn-lg btn-block">Sign In</button>
         <br>
-        <span class="pull-right"><a href="regis.html">New Registration</a></span>
+<!--         <span class="pull-right"><a href="regis.html">New Registration</a></span> -->
     </div>
 </form>
 <!-- Simple Login - END -->
